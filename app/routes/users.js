@@ -9,4 +9,4 @@ module.exports = app => {
   var router = require("express").Router();
   router.post("/", Users.create);    
   app.use('/user', router);
-};
+}
